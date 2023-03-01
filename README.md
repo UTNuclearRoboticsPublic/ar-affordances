@@ -1,4 +1,4 @@
-# ar-affordances: Defining Manipulation Task Affordance Primitives using Augmented Reality
+# Using Single Demonstrations to Define Autonomous Manipulation Contact Tasks in Unstructured Environments via Object Affordances
 
 Code and media for augmented reality affordance primitive task definition work
 
