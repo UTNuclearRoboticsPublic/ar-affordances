@@ -8,13 +8,11 @@ This is an end-to-end system that enables users to perform a single manipulation
 Click on the video above to watch!
 
 # Publication
-#### Title 
+##### Title 
 Using a Single Demonstration to Define Autonomous Manipulation Contact Tasks in Unstructure Environments Using Object Affordances
-Click on the video below to watch a demonstration of this work.
-#### Authors 
+##### Authors 
 Frank Regal, Adam Pettinger, John A. Duncan, Fabian Parra, \\Emmanuel Akita, Alex Navarro, and Mitch Pryor
-#### Conference 
+##### Conference 
 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-#### Status
+##### Status
 Submitted and Under Review
-
