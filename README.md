@@ -1,14 +1,9 @@
-## Using Single Demonstrations to Define Autonomous Manipulation Contact Tasks in Unstructured Environments via Object Affordances
+# AR Affordances
+
 
 Code and media for augmented reality affordance primitive task definition work
 
-Introductory text.
-
-## Section 1
-Section 1 text.
-
-## Section 2
-Section 2 text.
+[![ALT_TEXT](http://img.youtube.com/vi/5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup/0.jpg)](https://www.youtube.com/watch?v=5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup)
 
 ## Publications
 If you find this project interesting, please see the following related project publications:
