@@ -1,24 +1,20 @@
-# AR Affordances
+# Defining Robot Manipulations with Augmented Reality Demonstrations
 
+# About
+This is an end-to-end system that enables users to perform a single manipulation tasks demonstration, via an augmented reality headset, and command a mobile manipulator to perform a manipulation on the object. The system is robust and generalizable and is intended for human-robot teams working in unknown and unstructured environments. To learn more watch the demonstration video hyperlinked below or read the submitted 2023 IEEE IROS conference paper linked below. 
 
-Code and media for augmented reality affordance primitive task definition work
+# Demonstration Video
+[![YouTube Demonstration Video](https://user-images.githubusercontent.com/84527482/222321638-8ced7798-70ca-40a6-8df2-5a5c11380408.png)](https://www.youtube.com/watch?v=5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup)
+Click on the video above to watch!
 
-[![ALT_TEXT](http://img.youtube.com/vi/5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup/0.jpg)](https://www.youtube.com/watch?v=5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup)
+# Publication
+#### Title 
+Using a Single Demonstration to Define Autonomous Manipulation Contact Tasks in Unstructure Environments Using Object Affordances
+Click on the video below to watch a demonstration of this work.
+#### Authors 
+Frank Regal, Adam Pettinger, John A. Duncan, Fabian Parra, \\Emmanuel Akita, Alex Navarro, and Mitch Pryor
+#### Conference 
+2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+#### Status
+Submitted and Under Review
 
-## Publications
-If you find this project interesting, please see the following related project publications:
-
-```
-@article{pettinger_versatile_2022,
-	title = {A {Versatile} {Affordance} {Modeling} {Framework} {Using} {Screw} {Primitives} to {Increase} {Autonomy} {During} {Manipulation} {Contact} {Tasks}},
-	volume = {7},
-	issn = {2377-3766},
-	doi = {10.1109/LRA.2022.3181732},
-	number = {3},
-	journal = {IEEE Robotics and Automation Letters},
-	author = {Pettinger et al., Adam},
-	month = jul,
-	year = {2022},
-	pages = {7224--7231},
-}
-```
