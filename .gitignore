@@ -1,8 +1,8 @@
 arhmd/Augmented-Robot-Environment/*
 arhmd/Augmented-Robot-Environment_v2.9.0-alpha/*
 arhmd/HololensPkg_AugRE_v2.9.0-alpha/*
-robot/vbats/*
-robot/robot_statics/*
+robot/vbats
+robot/robot_statics
 server/ar_screw_axis/*
 server/robofleet_client/*
 server/robofleet_server/*
