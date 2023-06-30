@@ -1,0 +1,14 @@
+repositories:
+  Augmented-Robot-Environment:
+    type: git
+    url: git@github.com:UTNuclearRobotics/Augmented-Robot-Environment.git
+    version: main
+  Augmented-Robot-Environment/Source/RobofleetUnrealClient:
+    type: git
+    url: git@github.com:UTNuclearRoboticsPublic/RobofleetUnrealClient.git
+    version: main
+  Augmented-Robot-Environment/Source/RobofleetUnrealClient/Private/robofleet_client_lib:
+    type: git
+    url: git@github.com:UTNuclearRobotics/robofleet_client_lib.git
+    version: master 
+

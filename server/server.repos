@@ -1,0 +1,13 @@
+repositories:
+  ar_screw_axis:
+    type: git
+    url: git@github.com:UTNuclearRobotics/ar_screw_axis.git
+    version: main
+  robofleet_client:
+    type: git
+    url: git@github.com:UTNuclearRobotics/robofleet_client.git
+    version: noetic-devel
+  robofleet_server:
+    type: git
+    url: git@github.com:ut-amrl/robofleet_server.git
+    version: master

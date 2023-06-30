@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+cd ./Augmented-Robot-Environment/
+gh release download v2.9.0-alpha -p 'HololensPkg*'
+unzip HololensPkg_AugRE_v2.9.0-alpha.zip
+mv Hololens ./../HololensPkg_AugRE_v2.9.0-alpha/
+rm HololensPkg_AugRE_v2.9.0-alpha.zip
+cd ..

@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+cd ./Augmented-Robot-Environment/
+gh release download v2.9.0-alpha -p '4.27.0_AugRE*'
+unzip 4.27.0_AugRE_v2.9.0-alpha.zip
+mv Augmented-Robot-Environment ./../Augmented-Robot-Environment_v2.9.0-alpha/
+rm 4.27.0_AugRE_v2.9.0-alpha.zip
+cd ..
