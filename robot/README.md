@@ -17,6 +17,9 @@ The following packages must be installed and configured on robot hardware to loc
 ### Temoto Framework
 1. Follow [temoto-framework](https://github.com/temoto-framework/temoto/wiki) installation and configuration instructions.
 
+### Vaultbot Affordance Templates
+Install the `hololens_work` branch of `vbats`, located at [vbats](https://github.com/UTNuclearRobotics/vbats/tree/hololens_work).
+
 # Run Demo
 The ar-affordance demo uses the vbats affordance primitive package that runs on board the robot and solves ... (blah, blah, blah). Error correction packages are used by pausing the affordance primitive packages in this spot ... (blah, blah, blah). Follow along with the following instructions to install and run the demo.
 
@@ -51,10 +54,13 @@ cd robot/vbats && #do stuff
   ```
   
 - #### k-Nearest Neighbor Regression (k-NN)
-  1. Change into the knn repo and do stuff
+  1. At a properly sourced workspace on the robot, launch the k-NN grasp refinement server:
   ```
-  cd robot/knn && #do stuff
+  rosrun vbats nn_pose_correction_server
   ```
+  Ensure the `/mega/calibration_mode` parameter is set to `'john'`.
+  
+  Now, invoke the `ta_screw_vector` action, and the k-NN grasp correction service will be used.
   
 - #### Point Cloud Segmentation (PC Seg)
   1. Change into the pc_seg repo and do stuff
