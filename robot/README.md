@@ -98,12 +98,12 @@ When TeMoto receives the UMRF graph, it validates if all of the TeMoto actions e
 |---|---|---|
 | ta_initialize_robot       | Brings up the robot and its main capabilities: Navigation, maniulation, and gripper features| robot_name |
 | ta_start_component        | TeMoto action used to load the cameras| component | 
-|ta_move_manip_target_pose  |Moves the manipulator to a named target pose pre defined on the srdf |robot_Name planning_group target_pose|
-|ta_move_base               |Action that sends a navigation goal for the mobile base. Use to approach to the object.             |robot_name reference_frame pose_2d(x,y,theta)|
-| ta_move_gripper           | Controls the openning of the gripper | robot_name position(0_100%) |
-| ta_screw_vector           | Validates the trajectory from multiple screws, and moves the arm to the start pose | robot_name planning_group end_effector_name screw_array grab_pose |
-| ta_state_ap               | TeMoto action used to perform the screws (approach, turn valve, and retreat motion) | robot_name ap_action_name end_effector_name screw_frame is_pure_tranlation screw_axis screw_origin screw_distance screw_pitch task_impedance_rotation tansk_impedance_translation thate_dot|
-| ta_find_grasp             | Performs the exploration methods to find a valid grasp pose | robot_name gripper_name clase_tolerance |
+|ta_move_manip_target_pose  |Moves the manipulator to a named target pose pre defined on the srdf | robot_name <br> planning_group <br> target_pose|
+|ta_move_base               |Action that sends a navigation goal for the mobile base. Use to approach to the object.             |robot_name <br> reference_frame <br> pose_2d(x,y,theta)|
+| ta_move_gripper           | Controls the openning of the gripper | robot_name <br> position(0_100%) |
+| ta_screw_vector           | Validates the trajectory from multiple screws, and moves the arm to the start pose | robot_name <br> planning_group <br> end_effector_name <br> screw_array <br> grab_pose |
+| ta_state_ap               | TeMoto action used to perform the screws (approach, turn valve, and retreat motion) | robot_name <br> ap_action_name <br> end_effector_name <br> screw_frame <br> is_pure_tranlation <br> screw_axis <br> screw_origin <br> screw_distance <br> screw_pitch <br> task_impedance_rotation <br> tansk_impedance_translation <br> thate_dot|
+| ta_find_grasp             | Performs the exploration methods to find a valid grasp pose | robot_name <br> gripper_name <br> clase_tolerance |
 
 
 
