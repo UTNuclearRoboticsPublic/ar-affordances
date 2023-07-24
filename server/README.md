@@ -9,6 +9,7 @@ The server has two main functions:
 The server functions are implemented using the [ar_screw_axis package](https://github.com/UTNuclearRobotics/ar_screw_axis.git).
 
 # Installation
+Install the server software **on a host connected to the Robofleet network**. The server software is designed for Ubuntu 20.04/ROS Noetic.
 ```
 cd ~
 mkdir -p my_server_ws/src
