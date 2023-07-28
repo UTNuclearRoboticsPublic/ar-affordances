@@ -2,7 +2,7 @@ repositories:
   robot_statics:
     type: git
     url: git@github.com:UTNuclearRobotics/robot_statics.git
-    version: main
+    version: icra_devel
   vbats:
     type: git
     url: git@github.com:UTNuclearRobotics/vbats.git

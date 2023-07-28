@@ -36,6 +36,14 @@ git clone https://github.com/UTNuclearRoboticsPublic/ar-affordances.git
 ```
 cd ar-affordances/robot && vcs import < .robot.repos
 ```
+3. Install the dependencies
+```
+cd ~/catkin_ws/src && rosdep install --from-paths src --ignore-src -r -y
+```
+4. Build the packages
+```
+catkin build
+```
 
 ### Affordance Primitive Package Setup
 1. Change into the vbats repo and do stuff
@@ -47,12 +55,20 @@ cd robot/vbats && #do stuff
 - #### Eye-To-Hand Calibration (EHC)
   1. TODO: detail hololens visuals
      
-- #### Feel-in-the-Dark Exploration (FitD)
-  1. Change into the robot_static repo and do stuff
-  ```
-  cd robot/robot_statics && #do stuff
-  ```
-  
+- #### Feel-in-the-Dark Exploration (FitD) 
+  1. Source the workspace 
+  ```sh
+  cd ~/catkin_ws && source devel/setup.bash
+  ```      
+  2. Run the FitD node
+  ```sh 
+  roslaunch vb_statics vb_statics.launch
+  ``` 
+  To Call this from a different node, after building this repo,
+  - Include the "force_explorer/object_explorer.hpp" header in your main  function. 
+  - Instantiate the objectExplorer class with a ROS node_handle. 
+  - Call the run() functionto start.  
+
 - #### k-Nearest Neighbor Regression (k-NN)
   1. At a properly sourced workspace on the robot, launch the k-NN grasp refinement server:
   ```
