@@ -23,7 +23,7 @@ cd ar-affordances/arhmd && vcs import < .arhmd.repos
 bash .get-hololens-pkg
 ```
 4. [Open the Windows Device Portal](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#connecting-over-wi-fi) and [install](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#installing-an-app)
-the ```AugRE.appxbundle``` and ```AugRE.cer``` to your HoloLens 2 that are now in the ```ar-affordances/arhmd/HololensPkg_AugRE_v2.9.0-alpha``` directory.
+the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your HoloLens 2 that are now in the ```ar-affordances/arhmd/HololensPkg_AugRE_v2.9.0-alpha``` directory.
 
 # Application Instructions
 #### TODO
