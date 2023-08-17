@@ -2,13 +2,31 @@
 This ```ar-affordances/arhmd``` directory has all information and package links required to install and run the Microsoft HoloLens 2 AR-HMD application used to capture 
 user demonstrations and command the robot to perform manipulations on the object in focus. The AR-HMD is responsible for tracking the user's hands and visualizing the various items to the user that are shown below.
 
-# Dependencies
+![image](https://github.com/UTNuclearRoboticsPublic/ar-affordances/assets/30937261/83c70ad3-a01d-4923-b111-fafad9d02742)
+
+The AR-HMD functions as the device to:
+- localize and connect to robotic agents
+- enable the hand tracking used to define manipulations
+- record trajectories
+- visualize screw axes
+- define grasp points
+- construct [TeMoto](https://github.com/temoto-framework/temoto) graphs
+- publish [TeMoto](https://github.com/temoto-framework/temoto) graphs
+
+The following actions are required from the user to define a manipulation to the robot (highlighted in green in the image above):
+- Connect and localize by using the [AugRE](https://github.com/UTNuclearRoboticsPublic/Augmented-Robot-Environment) application
+- Enable the Affordance Definition Action Module in AugRE
+- Record a trajectory
+- Define a grasp start location
+
+# Installation
+### Dependencies
 Install vcstools to get started using this directory
 ```
 sudo apt install python3-vcstools
 ```
 
-# Installation
+### Packaging Project
 1. Create a catkin workspace and clone this repo into the ```catkin_ws/src``` directory [^1].
 [^1]: If you are not going to use any of the ```ar-affordances/robot``` or ```ar-affordances/server``` code on your current machine, and just want to obtain the HoloLens 2 executable application, then you can work out of any directory.
 ```
@@ -25,7 +43,8 @@ bash .get-hololens-pkg
 4. [Open the Windows Device Portal](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#connecting-over-wi-fi) and [install](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#installing-an-app)
 the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your HoloLens 2 that are now in the ```ar-affordances/arhmd/HololensPkg_AugRE_v2.9.0-alpha``` directory.
 
-# Application Instructions
+# AR Application Instructions
+### Start ADAM Module
 1. Turn on HoloLens 2 and sign in (passwords are on stache for all HoloLens')
 2. Open the "AugRE" application and start the "ADAM" module.
     <details>
@@ -38,12 +57,6 @@ the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your H
     <summary>b. Select "AugRE". You may need to use the scroll button on the right side to scroll down in the list.</summary>
     
     ![tap_on_scroll_down_image.](https://user-images.githubusercontent.com/84527482/223892013-99a2215c-9c1a-4704-831f-b1632f881584.jpg)
-
-    </details>
-    <details>
-    <summary>c. Use an open palm facing yourself to open the hand menu.</summary>
-    
-    ![hand_menu](https://github.com/UTNuclearRoboticsPublic/ar-affordances/assets/84527482/39d2c252-5690-4270-b4e6-a8936945ee37)
 
     </details>
     <details>
@@ -71,7 +84,8 @@ the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your H
     ![qr_code_highlights](https://github.com/UTNuclearRoboticsPublic/ar-affordances/assets/84527482/a6576f9d-e8ca-414c-a9e9-e21e05a06070)
 
     </details>
-4. (Recommended, but optional) In the scene, there is a virtual gripper. Align this to the gripper attached to the robot to calibrate the gripper.
+### Calibrate
+1. (Recommended, but optional) In the scene, there is a virtual gripper. Align this to the gripper attached to the robot to calibrate the gripper.
     <details>
     <summary>a. Find the calibration menu in the scene. (Shown in the image below)</summary>
 
@@ -84,7 +98,8 @@ the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your H
     ![calibration_image](https://github.com/UTNuclearRoboticsPublic/ar-affordances/assets/84527482/03ba64d2-1283-4c78-b884-89bb42500b15)
 
     </details>
-5. At this point, you are ready to send definitions to the robot. You must make sure the NLLS server is running first, though, before you can send it definitions. (See ...)
+### Define Manipulations
+1. At this point, you are ready to send definitions to the robot. You must make sure the NLLS server is running first, though, before you can send it definitions. (See ...)
     <details>
     <summary>a. To define an object manipulation, first, select whether it is a liner or rotational definition on the calibration menu.</summary>
 
