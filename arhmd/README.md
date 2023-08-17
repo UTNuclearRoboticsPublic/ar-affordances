@@ -43,7 +43,7 @@ bash .get-hololens-pkg
 4. [Open the Windows Device Portal](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#connecting-over-wi-fi) and [install](https://learn.microsoft.com/en-us/windows/mixed-reality/develop/advanced-concepts/using-the-windows-device-portal#installing-an-app)
 the ```AugRE.appxbundle``` and ```Microsoft.VCLibs.arm64.14.00.appx``` to your HoloLens 2 that are now in the ```ar-affordances/arhmd/HololensPkg_AugRE_v2.9.0-alpha``` directory.
 
-# AR Application Instructions
+# AR Application Usage
 ### Start ADAM Module
 1. Turn on HoloLens 2 and sign in (passwords are on stache for all HoloLens')
 2. Open the "AugRE" application and start the "ADAM" module.
