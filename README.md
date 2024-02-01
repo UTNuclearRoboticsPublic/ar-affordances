@@ -5,6 +5,8 @@
 ## About
 This is a novel end-to-end system that captures a single manipulation task demonstration from an augmented reality (AR) head-mounted display (HMD), computes an affordance primitive (AP) representation of the task, and sends the task parameters to a mobile manipulator for execution in real-time. The system is robust, generalizable, and mobile and is intended for non-expert users to be able to define manipulator contact tasks in unknown and unstructured environments on the fly without requiring environment modifications. To learn more, watch the demonstration video hyperlinked below or watch our presentation at the 2023 IEEE IROS Conference in Detroit, MI. 
 
+This code is currently closed source. Updates will be made to this page if the code is released as open source.
+
 ## System Setup
 * [AR-HMD](https://github.com/UTNuclearRoboticsPublic/ar-affordances/blob/main/arhmd/README.md)
 * [Robot](https://github.com/UTNuclearRoboticsPublic/ar-affordances/blob/main/robot/README.md)
