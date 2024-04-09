@@ -1,4 +1,6 @@
 # AR-Based Contact Task Demonstrations
+[![DOI](https://img.shields.io/badge/DOI-10.1109/IROS55552.2023.10342493-blue.svg)](https://doi.org/10.1109/IROS55552.2023.10342493)
+[![github.io](https://img.shields.io/badge/github.io-Website-green.svg)](https://utnuclearroboticspublic.github.io/ar-affordances/)
 
 [![YouTube Demonstration Video](https://user-images.githubusercontent.com/84527482/222321638-8ced7798-70ca-40a6-8df2-5a5c11380408.png)](https://www.youtube.com/watch?v=5AKIhkXAiO4&ab_channel=Nuclear%26AppliedRoboticsGroup)
 
@@ -14,14 +16,15 @@ This code is currently closed source. Updates will be made to this page if the c
 
 ## Citation
 ```
-@inproceedings{regalUsingSingleDemonstrations2023,
-  title = {Using Single Demonstrations to Define Autonomous Manipulation
-  Contact Tasks in Unstructured Environments via Object Affordances},
-  author = {Regal, Frank and Pettinger, Adam and Duncan, John and Parra, Fabian
-  and Akita, Emmanuel and Navarro, Alex and Pryor, Mitch},
-  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  pages={},
-  year = {2023},
-  organization={IEEE}
+@INPROCEEDINGS{10342493,
+  author={Regal, Frank and Pettinger, Adam and Duncan, John A. and Parra, Fabian and Akita, Emmanuel and Navarro, Alex and Pryor, Mitch},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Using Single Demonstrations to Define Autonomous Manipulation Contact Tasks in Unstructured Environments via Object Affordances}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={3664-3671},
+  keywords={Three-dimensional displays;Service robots;Affordances;Robot kinematics;Wheels;Resists;Manipulators},
+  doi={10.1109/IROS55552.2023.10342493}
 }
 ```
